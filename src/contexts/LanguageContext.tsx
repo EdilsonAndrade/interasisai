@@ -24,7 +24,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
         // Ignora erros de leitura do localStorage
       }
     }
-    return 'pt'; // Default seguro para SSR
+    return 'en'; // Default seguro para SSR e fallback (Inglês)
   });
   const [mounted, setMounted] = useState(false);
 
