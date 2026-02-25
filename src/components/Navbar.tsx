@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Github } from "lucide-react";
 import { useState, useEffect } from "react";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { Language } from "@/i18n/dictionaries";
@@ -80,6 +80,15 @@ export function Navbar() {
             </a>
           ))}
           <a
+            href="https://github.com/edilsonandrade"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="GitHub de Edilson Andrade"
+            className="text-text-second hover:text-primary transition-colors"
+          >
+            <Github size={20} />
+          </a>
+          <a
             href="mailto:edilson.a.andrade@gmail.com"
             className="px-5 py-2 rounded-xl bg-primary text-white text-sm font-medium hover:bg-primary/90 transition-all shadow-sm ml-2"
           >
@@ -119,6 +128,15 @@ export function Navbar() {
               {link.name}
             </a>
           ))}
+          <a
+            href="https://github.com/edilsonandrade"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 text-base font-medium text-text-main p-3 rounded-xl hover:bg-bg-main transition-colors"
+          >
+            <Github size={20} />
+            GitHub
+          </a>
           <a
             href="mailto:edilson.a.andrade@gmail.com"
             className="w-full mt-2 py-3 rounded-xl bg-primary text-white text-center font-medium shadow-sm active:scale-[0.98] transition-all"
