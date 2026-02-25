@@ -80,7 +80,7 @@ export function Navbar() {
             </a>
           ))}
           <a
-            href="mailto:seu-email@example.com"
+            href="mailto:edilson.a.andrade@gmail.com"
             className="px-5 py-2 rounded-xl bg-primary text-white text-sm font-medium hover:bg-primary/90 transition-all shadow-sm ml-2"
           >
             {dict.navbar.contact}
@@ -120,7 +120,7 @@ export function Navbar() {
             </a>
           ))}
           <a
-            href="mailto:seu-email@example.com"
+            href="mailto:edilson.a.andrade@gmail.com"
             className="w-full mt-2 py-3 rounded-xl bg-primary text-white text-center font-medium shadow-sm active:scale-[0.98] transition-all"
           >
             {dict.navbar.contactMobile}

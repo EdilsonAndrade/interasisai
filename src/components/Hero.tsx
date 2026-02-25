@@ -42,7 +42,7 @@ export function Hero() {
         className="flex flex-wrap items-center justify-center gap-4 pt-4"
       >
         <a
-          href="mailto:seu-email@example.com"
+          href="mailto:edilson.a.andrade@gmail.com"
           className="flex items-center gap-2 px-6 py-3 rounded-2xl bg-primary text-white font-medium hover:bg-primary/90 transition-all shadow-[0_4px_14px_0_rgba(99,91,255,0.39)] hover:shadow-[0_6px_20px_rgba(99,91,255,0.23)] hover:-translate-y-0.5"
         >
           <Mail size={18} />
